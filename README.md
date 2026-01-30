@@ -32,10 +32,3 @@ A simple console dice game in **C#** where you play against an AI.
 - Random number generation  
 - If/Else statements  
 
----
-
-## 🚀 How to Run
-
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/YourUsername/DiceGame.git
