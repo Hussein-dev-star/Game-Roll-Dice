@@ -40,7 +40,7 @@ namespace RollDice
         {
             char choice;
 
-            while (!char.TryParse(Console.ReadLine(), out choice) || (choice != 'y' && choice != 'n')) {
+            while (!char.TryParse(Console.ReadLine().ToLower(), out choice) || (choice != 'y' && choice != 'n')) {
                 Console.WriteLine("Enter y/n only⚠️");
             }
             return choice;
